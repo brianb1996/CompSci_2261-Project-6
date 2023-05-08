@@ -1,5 +1,7 @@
 package WebCrawler;
 /*
+Brian Bredahl
+CMPSCI 2261 project 6
 In this project, you are to create a web crawler class.
 
 Two notes before we discuss what to do with the class:
@@ -71,16 +73,6 @@ abstract class WebData {
     }
 
     /*
-    System.out.println("Page Titles");
-        this.traversedURLs.forEach((key, value) -> System.out.println("\t" + value));
-        System.out.printf("%-30s%-5s %n", "\tWord", "Count");
-        this.words.forEach((key, value) -> System.out.printf("%-30s%-5d %n", "\t" + key, value));
-        System.out.println("Number of Words Founds: " + this.words.size());
-        System.out.println("Number of HTML Documents Traversed: " + this.traversedURLs.size());
-        System.out.println("Number of URL's that failed: " + this.failedURLs);
-        System.out.println("Number of URLs that were not used: " + this.pendingURLs.size());
-        return "";
-
     This method can be used to export the data to a txt document named Web_Data.txt
 
     static void toTextDoc(WebData current){
